@@ -1,2 +1,50 @@
-i set = small
-colgroupm [=  i shafith color black]
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Navigation menu styling */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
